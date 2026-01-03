@@ -1,0 +1,5 @@
+name: "Test"
+environment:
+    sdk: "^3.10.0"
+dependencies:
+    characters: ^1.4.1
