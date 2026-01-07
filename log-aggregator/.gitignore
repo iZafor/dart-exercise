@@ -1,0 +1,38 @@
+# Dart specific ignores
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dart SDK and Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Test coverage
+coverage/
+.test_coverage.dart
+
+# Project specific ignores
+logs/
+*.log
+
+# Compiled files
+*.js
+*.js.map
+*.aot
+*.snapshot
+*.dill
+
+# Temporary files
+temp/
+tmp/
+*.tmp
