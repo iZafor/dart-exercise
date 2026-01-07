@@ -116,6 +116,8 @@ class Worker {
       close(workerId);
     }
 
+    await Future.delayed(Duration(seconds: 2));
+
     await subscription.cancel();
   }
 
